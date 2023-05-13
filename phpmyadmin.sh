@@ -1,3 +1,5 @@
+# https://memo-linux.com/installer-php-8-0-sur-debian-10/
+
 apt install -y lsb-release ca-certificates apt-transport-https software-properties-common
 echo "deb https://packages.sury.org/php/ $(lsb_release -sc) main" | tee /etc/apt/sources.list.d/sury-php.list
 wget -g0 - https://packages.sury.org/php/apt.gpg | apt-key add -
